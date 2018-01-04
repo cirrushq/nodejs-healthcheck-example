@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-healthcheck-example",
+  "version": "1.0.0",
+  "description": "Default application for deploying nodejs apps to ECS using AWS CodePipeline",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cirrushq/nodejs-healthcheck-example.git"
+  },
+  "author": "james@cirrushq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cirrushq/nodejs-healthcheck-example/issues"
+  },
+  "homepage": "https://github.com/cirrushq/nodejs-healthcheck-example#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
