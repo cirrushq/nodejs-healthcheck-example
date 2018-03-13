@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Default page for example app')
 })
 
-app.get('/health', function (req, res) {
+app.get('/healthcheck', function (req, res) {
   res.send('Default healthcheck page for example app')
 })
 
